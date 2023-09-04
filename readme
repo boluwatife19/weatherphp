@@ -1,0 +1,59 @@
+DEVTIFE WEATHER FORECAST SITE
+Weather Forecast Site
+
+Table of Contents
+Description
+Features
+Technologies Used
+Getting Started
+Usage
+Description
+Welcome to the DEVTIFE Weather Forecast Site! This web application allows users to check the weather forecast for a specific city. Simply enter the city name, click "Search," and you will receive detailed weather information. The site leverages the OpenWeatherMap API to provide accurate weather data. It is built using PHP for server-side scripting, Bootstrap for a clean and responsive user interface, and HTML/CSS for structure and styling.
+
+As the creator of this application, I wanted to provide a straightforward tool for users to access weather forecasts quickly and easily. The site also handles errors gracefully by displaying relevant error messages when needed.
+
+Features
+City Weather Forecast: Users can enter the name of a city and click "Search" to get the current weather forecast for that location.
+
+Display Weather Information: The application displays the temperature in Celsius, the weather condition (e.g., cloudy, rainy), the city name, wind speed, and the date (day and month) of the forecast.
+
+Weather Icons: Weather icons representing the current conditions are displayed for better visualization.
+
+Error Handling: If there's an issue with the city name (e.g., invalid city name), an error message is displayed, guiding users to make corrections.
+
+Technologies Used
+PHP: Used for server-side scripting and handling API requests.
+Bootstrap: Provides a responsive and visually appealing user interface.
+HTML and CSS: Used for structuring the site and styling elements.
+OpenWeatherMap API: Provides real-time weather data for cities.
+Getting Started
+To run this application locally, follow these steps:
+
+Clone the Repository: Clone this repository to your local machine using the following command:
+
+git clone https://github.com/Boluwatife19/weather-forecast-site.git
+API Key Setup: You will need an API key from OpenWeatherMap to access weather data. Replace 'YOUR_API_KEY' in the URL with your actual API key:
+
+
+$url = "your open weather api";
+Web Server: Use a local web server (e.g., XAMPP, WAMP, or MAMP) to serve the PHP files.
+
+Access the Site: Open a web browser and navigate to http://localhost/weather-forecast-site/index.php to access the site.
+
+Usage
+Search for Weather:
+
+Enter the name of a city in the input field.
+Click the "Search" button to retrieve the weather forecast for that city.
+Display Weather Information:
+
+After clicking "Search," the weather information for the specified city will be displayed.
+You can view the temperature in Celsius, the weather condition, the city name, wind speed, and the date of the forecast.
+Error Handling:
+
+If you enter an invalid city name or there is an issue with the API request, an error message will be displayed.
+You can click the provided link in the error message to make corrections and resubmit your search.
+
+Thank you for using the DEVTIFE Weather Forecast Site! If you have any questions or encounter any issues, please feel free to contact us.
+
+This README was authored by [Your Name] and provides an overview of the Weather Forecast Site and how to use it.
